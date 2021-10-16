@@ -1,4 +1,4 @@
-### The repo contains the original code for binary classifciation on the two classes of CIFAR-10 dtaset trained with "ground truth labels" and "random labels". 
+### The "binaryclassifiers_squareloss" repo contains the original code for binary classifciation on the two classes of CIFAR-10 dataset trained with the "ground truth labels" and "random labels", respectively.
 
 ## Experimental settings: 
 
