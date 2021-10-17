@@ -1,4 +1,4 @@
-### This repo contains the original implementations of the paper [``Normalization and dynamics in Deep Classifiers trained with the Square Loss''](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) in PyTorch
+### This repo contains the original implementations of the paper [``Normalization and dynamics in Deep Classifiers trained with the Square Loss''](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) by A Rangamani, M Xu, A Banburski, Q Liao and T Poggio in PyTorch
 <a href="#"><img src="https://img.shields.io/github/workflow/status/milesial/PyTorch-UNet/Publish%20Docker%20image?logo=github&style=for-the-badge" /></a>
 <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-v1.9.0-red.svg?logo=PyTorch&style=for-the-badge" /></a>
 <a href="#"><img src="https://img.shields.io/badge/python-v3.6+-blue.svg?logo=python&style=for-the-badge" /></a>
@@ -38,6 +38,12 @@ python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_de
 python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_decay/binary_class_1_2_NetSimpleConv4_normx1_lr_d01_scale_d01_hasbn_1_decay_0.01/       --dataset cifar10 --class1 1 --class2 2 --layers 10 --widen-factor 4 --epochs 1000 --init-scale 0.01 --exp-name 10K_n_wd --init-type const_norm --lr 0.01 --arch NetSimpleConv4 --weight-decay 0.01 --loss_type MSE --nesterov 0 --no-augment --tensorboard --normx1 L2  --hasbn 1
 ```
  3) If you want to visualize the experimental results, please download the jupyter notebook script file [here](https://www.dropbox.com/s/717k1cug1ejxqcn/final_visualization_0602.zip?dl=0) for visualization.
+
+## reference
+If you feel this repo is helpful for your research, please cite the corresponding paper below.
+
+[Dynamics and Neural Collapse in Deep Classifiers trained with the Square Loss](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) 
+by A Rangamani, M Xu, A Banburski, Q Liao and T Poggio, 2021.
 
 
 
