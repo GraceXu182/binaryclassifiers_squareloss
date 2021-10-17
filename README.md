@@ -37,4 +37,4 @@ python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_de
 ```bash
 python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_decay/binary_class_1_2_NetSimpleConv4_normx1_lr_d01_scale_d01_hasbn_1_decay_0.01/       --dataset cifar10 --class1 1 --class2 2 --layers 10 --widen-factor 4 --epochs 1000 --init-scale 0.01 --exp-name 10K_n_wd --init-type const_norm --lr 0.01 --arch NetSimpleConv4 --weight-decay 0.01 --loss_type MSE --nesterov 0 --no-augment --tensorboard --normx1 L2  --hasbn 1
 ```
- 3) If you want to visualize the experimental results, please use the scripts in the jupyter notebook file (*.ipynb)
+ 3) If you want to visualize the experimental results, please use the scripts in the jupyter notebook file ([*.ipynb](https://www.dropbox.com/s/717k1cug1ejxqcn/final_visualization_0602.zip?dl=0))
