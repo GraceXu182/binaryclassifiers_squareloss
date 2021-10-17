@@ -13,8 +13,8 @@
 
 - [train_binary.py](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/0b088bab2295f8ac75dd8bda202bbbe2571aa72e/train_binary.py) -- the main code for binary classification experiments trained with the Square loss, BN and Weight Decay 0.01 or 0;
 - [extarget.py](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/0b088bab2295f8ac75dd8bda202bbbe2571aa72e/extarget.py) -- build and initialize our deep neural network model
-- [complexity.py](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/0b088bab2295f8ac75dd8bda202bbbe2571aa72e/complexity.py) -- compute the network complexity parameters (product norm -rho, batch norm std, etc.)
-- [final\_visualization\_0602.ipynb](https://www.dropbox.com/s/717k1cug1ejxqcn/final_visualization_0602.zip?dl=0) -- The juupyter notebook file for plotting all figures in our paper from the saved tensorboard event files after runing the `train_bianry.py`.
+- [complexity.py](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/0b088bab2295f8ac75dd8bda202bbbe2571aa72e/complexity.py) -- compute the network complexity parameters (product norm -\rho, batch normalization - mean and std, etc.)
+- [final\_visualization\_0602.ipynb](https://www.dropbox.com/s/717k1cug1ejxqcn/final_visualization_0602.zip?dl=0) --plot the figures shown in our paper from the saved tensorboard event files after runing the `train_bianry.py`.
 
 ## Experimental settings
 
@@ -22,18 +22,18 @@ In the experiments, we train the binary classifier with mean square loss, `10000
 
 ## How to run the code?
 
-* To run the random label experiment with different ratio by changing the parameter "ratio" as `0.2, 0.4, 0.6, 0.8 or 1.0` using the python script in the below:
+* To run the random label experiment with a random label "ratio" (`0.2`) using the python script in the below:
 ```bash
 python train_binary_RL.py --expDir ~/train_wd_RL20p/fig23_BN_noBN_weight_decay/binary_class_1_2_NetSimpleConv4_normx1_lr_d01_scale_d1_hasbn_1_decay_0.01/       --dataset cifar10 --class1 1 --class2 2 --layers 10 --widen-factor 4 --epochs 1000 --ratio 0.2 --init-scale 0.1 --exp-name 10K_n_wd --init-type const_norm --lr 0.01 --arch NetSimpleConv4 --weight-decay 0.01 --loss_type MSE --nesterov 0 --no-augment --tensorboard --normx1 L2  --hasbn 1
 ```
 * To run the binary classification experiments with MSE loss, BN and WD or w/o WD
 
- 1) train the network with `BN` (hasbn `1`) + WD (weight-decay `0.01`) + initialization (init-scale) `0.01`
+ 1) train the network with `BN` (hasbn `1`), WD (weight-decay `0.01`) and initialization (init-scale) `0.01`
 ```bash
 python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_decay/binary_class_1_2_NetSimpleConv4_normx1_lr_d01_scale_d01_hasbn_1_decay_0.01/       --dataset cifar10 --class1 1 --class2 2 --layers 10 --widen-factor 4 --epochs 1000 --init-scale 0.01 --exp-name 10K_n_wd --init-type const_norm --lr 0.01 --arch NetSimpleConv4 --weight-decay 0.01 --loss_type MSE --nesterov 0 --no-augment --tensorboard --normx1 L2  --hasbn 1
 ```
 
- 2) train the network with `BN` + w/o WD (weight-decay `0`) + initialization (init-scale) `0.01`
+ 2) train the network with `BN`, no WD (weight-decay `0`) and initialization (init-scale) `0.01`
 ```bash
 python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_decay/binary_class_1_2_NetSimpleConv4_normx1_lr_d01_scale_d01_hasbn_1_decay_0.01/       --dataset cifar10 --class1 1 --class2 2 --layers 10 --widen-factor 4 --epochs 1000 --init-scale 0.01 --exp-name 10K_n_wd --init-type const_norm --lr 0.01 --arch NetSimpleConv4 --weight-decay 0.01 --loss_type MSE --nesterov 0 --no-augment --tensorboard --normx1 L2  --hasbn 1
 ```
