@@ -39,7 +39,7 @@ python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_de
 ```
  3) If you want to visualize the experimental results, please download the jupyter notebook script file [here](https://www.dropbox.com/s/717k1cug1ejxqcn/final_visualization_0602.zip?dl=0) for visualization.
 
-## reference
+## Reference
 If you feel this repo is helpful for your research, please cite the corresponding paper below.
 
 [Dynamics and Neural Collapse in Deep Classifiers trained with the Square Loss](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) 
