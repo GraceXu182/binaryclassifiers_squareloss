@@ -4,6 +4,8 @@
 <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-v1.9.0-red.svg?logo=PyTorch&style=for-the-badge" /></a>
 <a href="#"><img src="https://img.shields.io/badge/python-v3.6+-blue.svg?logo=python&style=for-the-badge" /></a>
 
+![training dynamics of deep nets]()
+
 - [Main file descriptions](#main-file-descriptions)
 - [Experimental settings](#experimental-settings)
 - [How to run the code?](#how-to-run-the-code)
