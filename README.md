@@ -12,10 +12,10 @@
 
 ## Main file descriptions
 
-- [train_binary.py] -- the main code for binary classification experiments trained with the Square loss, BN and Weight Decay 0.01 or 0;
-- [extarget.py] -- build and initialize our deep neural network model
-- [complexity.py] -- compute the network complexity parameters (product norm -rho, batch norm std, etc.)
-- [final\_visualization\_0602.ipynb] -- The visualization notebook file for plotting all figures from the saved tensorboard event data (see in the train_binary.py) in the paper.
+- [train_binary.py](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/0b088bab2295f8ac75dd8bda202bbbe2571aa72e/train_binary.py) -- the main code for binary classification experiments trained with the Square loss, BN and Weight Decay 0.01 or 0;
+- [extarget.py](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/0b088bab2295f8ac75dd8bda202bbbe2571aa72e/extarget.py) -- build and initialize our deep neural network model
+- [complexity.py](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/0b088bab2295f8ac75dd8bda202bbbe2571aa72e/complexity.py) -- compute the network complexity parameters (product norm -rho, batch norm std, etc.)
+- [final\_visualization\_0602.ipynb](https://www.dropbox.com/s/717k1cug1ejxqcn/final_visualization_0602.zip?dl=0) -- The visualization notebook file for plotting all figures added in our paper from the saved tensorboard event files (see in the train_binary.py).
 
 ## Experimental settings
 
