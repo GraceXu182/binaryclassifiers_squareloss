@@ -5,9 +5,9 @@
 
 ![training dynamics of deep nets](https://github.com/GraceXu182/binaryclassifiers_squareloss/blob/main/ynfn_rho_over_1000iterations_github.png)
 
-- [Main file descriptions](#main-file-descriptions)
+<!-- - [Main file descriptions](#main-file-descriptions)
 - [Experimental settings](#experimental-settings)
-- [How to run the code?](#how-to-run-the-code)
+- [How to run the code?](#how-to-run-the-code) -->
 
 ## Main file descriptions
 
