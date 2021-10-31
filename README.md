@@ -1,4 +1,4 @@
-### This repo contains the original implementations of the paper [``Normalization and dynamics in Deep Classifiers trained with the Square Loss''](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) in PyTorch
+### This repo contains the original implementation of the paper [``Normalization and dynamics in Deep Classifiers trained with the Square Loss''](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) in PyTorch
 <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-v1.9.0-red.svg?logo=PyTorch&style=for-the-badge" /></a>
 <a href="#"><img src="https://img.shields.io/badge/python-v3.6+-blue.svg?logo=python&style=for-the-badge" /></a>
 
@@ -39,7 +39,7 @@ python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_de
  3) If you want to visualize the experimental results, please download the jupyter notebook script file [here](https://www.dropbox.com/s/717k1cug1ejxqcn/final_visualization_0602.zip?dl=0) for visualization.
 
 ## Reference
-If you feel this repo is helpful for your research, please cite the corresponding paper below.
+If you feel this repo is helpful for your research, please cite our paper below.
 
 [Dynamics and Neural Collapse in Deep Classifiers trained with the Square Loss](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) 
 by A Rangamani, M Xu, A Banburski, Q Liao and T Poggio, 2021.
