@@ -41,8 +41,15 @@ python train_binary.py --expDir ~/train_wd_random_labels/fig23_BN_noBN_weight_de
 ## Reference
 If you feel this repo is helpful for your research, please cite our paper below.
 
-[Dynamics and Neural Collapse in Deep Classifiers trained with the Square Loss](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) 
-by A Rangamani, M Xu, A Banburski, Q Liao and T Poggio, 2021.
+>@article{rangamani2021dynamics,
+  title={Dynamics and Neural Collapse in Deep Classifiers trained with the Square Loss},
+  author={Rangamani, Akshay and Xu, Mengjia and Banburski, Andrzej and Liao, Qianli and Poggio, Tomaso},
+  journal={CBMM, memo117},
+  year={2021}
+}
+
+<!-- [Dynamics and Neural Collapse in Deep Classifiers trained with the Square Loss](https://cbmm.mit.edu/sites/default/files/publications/JMLR__2021-22.pdf) 
+by A Rangamani, M Xu, A Banburski, Q Liao and T Poggio, 2021. -->
 
 
 
